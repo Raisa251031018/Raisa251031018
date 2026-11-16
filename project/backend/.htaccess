@@ -1,0 +1,4 @@
+<FilesMatch "^\.(env|installed)">
+    Require all denied
+</FilesMatch>
+Options -Indexes

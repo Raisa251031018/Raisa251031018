@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-page="Login">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Login - University Library Management System</title>
+<meta name="theme-color" content="#0f1f4b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+
+<div id="login">
+ <div class="card lbox">
+  <div class="lform">
+   <div class="logo lg"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg></div>
+   <h2 data-site-name style="text-align:center;margin:0 0 18px;font-size:21px">University Library</h2>
+   <div class="tabs"><button id="tStaff" class="on" type="button">Admin / Librarian</button><button id="tStu" type="button">Student</button></div>
+   <form id="lf">
+    <label id="lu">Username<input id="lun" required autocomplete="username"></label>
+    <label>Password<div class="pw"><input id="lpw" type="password" required autocomplete="current-password"><button type="button" id="pwt" aria-label="Show or hide password"><svg viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></button></div></label>
+    <button class="btn" style="width:100%;padding:12px">Login</button>
+   </form>
+  </div>
+ </div>
+</div>
+<div id="toast"></div>
+<script src="js/branding.js?v=2"></script>
+<script src="js/script.js?v=2"></script>
+</body>
+</html>
